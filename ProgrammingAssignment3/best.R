@@ -1,8 +1,8 @@
 best<-function(state,outcome){
         hospdata<-read.csv("outcome-of-care-measures.csv")
         
-##Check whether State is valid entry, then if outcome is valid entry
-##Will stop or continue function based on outcome
+##Check whether State is valid entry, then if Outcome is valid entry
+##Will stop or continue function based on result
 
   states<-levels(hospdata[,7])
         test<-FALSE
