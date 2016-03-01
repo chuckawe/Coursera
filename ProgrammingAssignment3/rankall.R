@@ -34,7 +34,7 @@ rankall<-function (outcome, num="best"){
                 ranking<-append(ranking,c(hospital, states[i]))
         }
         ranking<-as.data.frame(matrix(ranking, length(states),2,byrow=TRUE))
-        colnames(ranking)<-c("Hospital","state")
+        colnames(ranking)<-c('Hospital','State')
         rownames(ranking)<-states
 
         ranking
